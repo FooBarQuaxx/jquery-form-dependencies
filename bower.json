@@ -2,7 +2,11 @@
     "name": "jquery-form-dependencies",
     "version": "0.0.2",
     "main": "jquery.form-dependencies.js",
-
+    "ignore": [
+        "test/index.html",
+        "test/jquery-1.6.1.js",
+        "README"
+    ],
     "repository": {
         "type": "git",
         "url": "git@github.com:med-abidi/jquery-form-dependencies.git"
