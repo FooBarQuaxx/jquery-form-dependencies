@@ -64,7 +64,7 @@
             $.each(options.elements, function (index, $dependencyElement) {
                 (function ($dependency, $dependent, dependencies, changeHandler) {
                     var eventType = eventTypes[$dependency.get(0).tagName][$dependency.attr('type')];
-                    $dependency.live(eventType, function () {
+                    $dependency.on(eventType, function () {
                         var enable = methods.elementsAreTruthy(dependencies);
 
                         if (typeof changeHandler === 'function') {
