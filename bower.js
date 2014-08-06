@@ -1,7 +1,7 @@
 {
     "name": "jquery-form-dependencies",
     "version": "0.0.2",
-    "main": ["./jquery.form-dependencies.js"],
+    "main": "./jquery.form-dependencies.js",
     "ignore": [
         'README',
         'test/index.html',
