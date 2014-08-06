@@ -8,4 +8,8 @@
         "test/jquery-1.6.1.js"
     ]
 
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/med-abidi/jquery-form-dependencies"
+    }
 }
